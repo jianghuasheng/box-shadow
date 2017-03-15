@@ -18,7 +18,7 @@
     -box-shadow:  投影方式 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色; 
 
 ----------------------
-[点击查看相关例子](http://www.cnblogs.com/wuchuanlong/p/5980766.html)
+[点击查看相关例子](http://blog.csdn.net/j_h_s/article/details/62231325)
 
  
 
