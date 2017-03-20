@@ -3,7 +3,7 @@
 > 主要是CSS3 中的多列columns属性的运用
 
 
-##W3C中的columns 
+## W3C中的columns 
 
 - **浏览器支持**
 
