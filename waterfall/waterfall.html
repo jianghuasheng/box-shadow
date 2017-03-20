@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS3瀑布流</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0}
+		#contanter{
+			columns:250px auto;
+			-moz-columns:250px auto; /* Firefox */
+			-webkit-columns:250px auto; /* Safari 和 Chrome */
+
+			-moz-column-rule:3px dashed #ff0000;	/* Firefox */
+			-webkit-column-rule:3px dashed #ff0000;	/* Safari and Chrome */
+			column-rule:3px dashed #ff0000;
+
+		}
+		#contanter div{
+			width: 250px;
+			display: block;
+			margin: 8px 0;
+			border:2px solid #e0e0e0;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: all 1s;
+			-moz-transition: all 1s;	/* Firefox 4 */
+			-webkit-transition: all 1s;	/* Safari 和 Chrome */
+			-o-transition: all 1s;	/* Opera */
+		}
+		#contanter div:hover{
+			box-shadow: 0px 0px 15px #888888;
+			-webkit-transform: rotateY(360deg); 
+			-moz-transform:rotateY(360deg); 
+			-o-transform: rotateY(360deg); 
+		}
+		#contanter div img{
+			display: block;
+			width: 100%;
+			border-radius: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+<div id="contanter">
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_1.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_2.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_3.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_4.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_5.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_6.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_7.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_8.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_9.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_10.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_11.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_13.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_14.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_15.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_16.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_17.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_18.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_19.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_20.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_21.jpg"></div>
+	<div><img src="http://image98.360doc.com/DownloadImg/2016/07/1820/76140390_22.jpg"></div>
+</div>
+</body>
+</html>
