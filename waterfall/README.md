@@ -114,4 +114,5 @@ column-rule 属性设置列之间的宽度、样式和颜色规则。
 <td>3</td>
 </tr>
 </tbody></table>
-[点我查看具体的例子](https://www.jianghuasheng.cn/example/waterfall.html)
+
+[点击查看在线案例](https://www.jianghuasheng.cn/example/waterfall.html)
